@@ -42,7 +42,7 @@ const App = () => {
         <Route path="/feedback/level-one" element={<LevelOneFb />} />
         <Route path="/feedback/level-two" element={<LevelTwoFb />} />
         <Route path="/feedback/level-three" element={<LevelThreeFb />} />
-        <Route path="/feedback/level-four" element={<LevelFourFb />} />
+        <Route path="/feedback/level-four/:candidateId" element={<LevelFourFb />} />
         <Route path="/documentation" element={<Documentation />} />
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="/candidate-list" element={<CandidateList />} />
